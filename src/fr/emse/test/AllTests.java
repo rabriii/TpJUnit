@@ -9,4 +9,5 @@ import org.junit.runners.Suite;
         MoneyBagTest.class
 })
 public class AllTests {
+    //Run tous les test
 }
