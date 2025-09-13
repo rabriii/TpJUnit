@@ -44,6 +44,8 @@ public class MoneyBagTest {
 
     @Test
     public void testBagSimpleAdd() {
+        int i =0;
+        i = i +1;
         // On calcule automatiquement la somme des CHF
         int totalCHF = ((Money)m14CHF).amount() + ((Money)m12CHF).amount();
         int totalUSD = ((Money)m21USD).amount(); // pas de fusion ici, reste inchangé
