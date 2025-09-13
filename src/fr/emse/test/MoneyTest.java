@@ -20,9 +20,12 @@ public class MoneyTest {
 
     @Test
     public void testSimpleAdd() {
+        int i =0;
+        i = i +1;
         IMoney expected = new Money(26, "CHF");
         assertEquals(expected, m12CHF.add(m14CHF));
     }
+
 
     @Test
     public void testEquals() {
